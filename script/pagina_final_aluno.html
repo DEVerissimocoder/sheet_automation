@@ -1,0 +1,742 @@
+<div class="conteudo">
+	<div class="bg1">
+	</div>
+	<div class="bg_rep tittexto">Dados cadastrais</div>
+	<div class="bg2">
+	</div>
+	<div class="meio">
+		<div class="quadro_meio texto">
+	    <table width="100%" border="0" cellpadding="1" cellspacing="0" class="faixa_bg">
+        <tbody><tr align="left" valign="middle">
+          <td height="25" colspan="4" class="tittexto">
+            <table width="29%" border="0" cellpadding="0" cellspacing="0">
+              <tbody><tr height="25">
+                <td width="41%" height="25" align="center" valign="middle">
+                  <select name="dadosAluno" class="texto" tabindex="1">
+                    <option value="cadastro">Dados cadastrais</option>
+                    <option value="matricula">Dados de matrícula</option>
+                    <option value="historico">Dados históricos</option>
+                  </select>
+                </td>
+                <td width="59%" align="center" valign="middle">
+                  <a name="lnk_ir" id="lnk_ir" href="javascript:ir();" style="cursor:pointer" tabindex="2" title="Ok">
+<img src="/imagens/bnt_ok_eol.gif" border="0" alt="Ok"></a><script language="javascript">
+    function ir() { 
+        with(document.frmDetalharAluno) { 
+            actionType.value = "ir"; 
+            submit(); 
+        }
+    }
+</script>
+
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+	    </tbody></table>
+             
+		
+			
+                    
+			<div class="dijitTabContainer dijitTabContainerTop dijitContainer dijitLayoutContainer dijitTabContainerNoLayout tabStrip-enabled" id="tabCadastroAluno" widgetid="tabCadastroAluno" style="width: 100%;">
+	<div class="dijitTabListContainer-top dijitTabController dijitScrollingTabController dijitLayoutContainer" style="height: 30px; width: 694px;" id="tabCadastroAluno_tablist" widgetid="tabCadastroAluno_tablist" _dijitmenutabcadastroaluno_tablist_menu="1">
+	<div data-dojo-attach-event="ondijitclick:_onClick" class="dijitTabInnerDiv dijitTabContent dijitButtonContents dijitTab tabStripButton dijitbelow-altArrowButton tabStripButton-top dijitAlignRight" data-dojo-attach-point="focusNode" role="button" tabindex="-1" id="tabCadastroAluno_tablist_menuBtn" title="" widgetid="tabCadastroAluno_tablist_menuBtn" style="user-select: none; display: none; left: 694px; top: 0px; position: absolute; height: 13px;">
+	<span role="presentation" class="dijitInline dijitTabStripIcon dijitTabStripMenuIcon" data-dojo-attach-point="iconNode"></span>
+	<span data-dojo-attach-point="containerNode,titleNode" class="dijitButtonText dijitDisplayNone">▼</span>
+</div>
+	<div data-dojo-attach-event="ondijitclick:_onClick" class="dijitTabInnerDiv dijitTabContent dijitButtonContents tabStripButton-top dijitAlignLeft dijitTab tabStripButton dijitTabDisabled tabStripButtonDisabled dijitDisabled" data-dojo-attach-point="focusNode" role="button" id="tabCadastroAluno_tablist_leftBtn" title="" widgetid="tabCadastroAluno_tablist_leftBtn" aria-disabled="true" tabindex="-1" style="user-select: none; display: none; left: 0px; top: 0px; position: absolute; height: 13px;">
+	<span role="presentation" class="dijitInline dijitTabStripIcon dijitTabStripSlideLeftIcon" data-dojo-attach-point="iconNode"></span>
+	<span data-dojo-attach-point="containerNode,titleNode" class="dijitButtonText dijitDisplayNone">◀</span>
+</div>
+	<div data-dojo-attach-event="ondijitclick:_onClick" class="dijitTabInnerDiv dijitTabContent dijitButtonContents tabStripButton-top dijitAlignRight dijitTab tabStripButton dijitTabDisabled tabStripButtonDisabled dijitDisabled" data-dojo-attach-point="focusNode" role="button" id="tabCadastroAluno_tablist_rightBtn" title="" widgetid="tabCadastroAluno_tablist_rightBtn" aria-disabled="true" tabindex="-1" style="user-select: none; display: none; left: 694px; top: 0px; position: absolute; height: 13px;">
+	<span role="presentation" class="dijitInline dijitTabStripIcon dijitTabStripSlideRightIcon" data-dojo-attach-point="iconNode"></span>
+	<span data-dojo-attach-point="containerNode,titleNode" class="dijitButtonText dijitDisplayNone">▶</span>
+</div>
+	<div class="dijitTabListWrapper dijitTabContainerTopStrip dijitAlignCenter" data-dojo-attach-point="tablistWrapper" style="height: 30px; left: 0px; top: 0px; position: absolute; width: 694px;">
+		<div role="tablist" data-dojo-attach-event="onkeydown:onkeydown" data-dojo-attach-point="containerNode" class="nowrapTabStrip dijitTabContainerTop-tabs dijitTabNoLayout" style="width: 51400px;"><div role="presentation" data-dojo-attach-point="titleNode,innerDiv,tabContent" class="dijitTabInner dijitTabContent dijitTab" widgetid="tabCadastroAluno_tablist_cpAluno">
+	<span role="presentation" class="dijitInline dijitIcon dijitTabButtonIcon dijitNoIcon" data-dojo-attach-point="iconNode"></span>
+	<span data-dojo-attach-point="containerNode,focusNode" class="tabLabel" role="tab" tabindex="-1" id="tabCadastroAluno_tablist_cpAluno" name="tabCadastroAluno_tablist_cpAluno" aria-disabled="false" title="" aria-selected="false" style="user-select: none;">Aluno</span>
+	<span class="dijitInline dijitTabCloseButton dijitTabCloseIcon" data-dojo-attach-point="closeNode" role="presentation" title="Fechar" style="display: none;">
+		<span data-dojo-attach-point="closeText" class="dijitTabCloseText">[x]</span></span>
+</div><div role="presentation" data-dojo-attach-point="titleNode,innerDiv,tabContent" class="dijitTabInner dijitTabContent dijitTab" widgetid="tabCadastroAluno_tablist_cpEndereco">
+	<span role="presentation" class="dijitInline dijitIcon dijitTabButtonIcon dijitNoIcon" data-dojo-attach-point="iconNode"></span>
+	<span data-dojo-attach-point="containerNode,focusNode" class="tabLabel" role="tab" tabindex="-1" id="tabCadastroAluno_tablist_cpEndereco" name="tabCadastroAluno_tablist_cpEndereco" aria-disabled="false" title="" style="user-select: none;">Endereço</span>
+	<span class="dijitInline dijitTabCloseButton dijitTabCloseIcon" data-dojo-attach-point="closeNode" role="presentation" title="Fechar" style="display: none;">
+		<span data-dojo-attach-point="closeText" class="dijitTabCloseText">[x]</span></span>
+</div><div role="presentation" data-dojo-attach-point="titleNode,innerDiv,tabContent" class="dijitTabInner dijitTabContent dijitTab" widgetid="tabCadastroAluno_tablist_cpResponsavel">
+	<span role="presentation" class="dijitInline dijitIcon dijitTabButtonIcon dijitNoIcon" data-dojo-attach-point="iconNode"></span>
+	<span data-dojo-attach-point="containerNode,focusNode" class="tabLabel" role="tab" tabindex="-1" id="tabCadastroAluno_tablist_cpResponsavel" name="tabCadastroAluno_tablist_cpResponsavel" aria-disabled="false" title="" style="user-select: none;">Responsável</span>
+	<span class="dijitInline dijitTabCloseButton dijitTabCloseIcon" data-dojo-attach-point="closeNode" role="presentation" title="Fechar" style="display: none;">
+		<span data-dojo-attach-point="closeText" class="dijitTabCloseText">[x]</span></span>
+</div><div role="presentation" data-dojo-attach-point="titleNode,innerDiv,tabContent" class="dijitTabInner dijitTabContent dijitTab dijitTabChecked dijitChecked" widgetid="tabCadastroAluno_tablist_cpTelefone">
+	<span role="presentation" class="dijitInline dijitIcon dijitTabButtonIcon dijitNoIcon" data-dojo-attach-point="iconNode"></span>
+	<span data-dojo-attach-point="containerNode,focusNode" class="tabLabel" role="tab" tabindex="0" id="tabCadastroAluno_tablist_cpTelefone" name="tabCadastroAluno_tablist_cpTelefone" aria-disabled="false" title="" style="user-select: none;" aria-selected="true">Telefone</span>
+	<span class="dijitInline dijitTabCloseButton dijitTabCloseIcon" data-dojo-attach-point="closeNode" role="presentation" title="Fechar" style="display: none;">
+		<span data-dojo-attach-point="closeText" class="dijitTabCloseText">[x]</span></span>
+</div><div role="presentation" data-dojo-attach-point="titleNode,innerDiv,tabContent" class="dijitTabInner dijitTabContent dijitTab" widgetid="tabCadastroAluno_tablist_cpDocumentos">
+	<span role="presentation" class="dijitInline dijitIcon dijitTabButtonIcon dijitNoIcon" data-dojo-attach-point="iconNode"></span>
+	<span data-dojo-attach-point="containerNode,focusNode" class="tabLabel" role="tab" tabindex="-1" id="tabCadastroAluno_tablist_cpDocumentos" name="tabCadastroAluno_tablist_cpDocumentos" aria-disabled="false" title="" style="user-select: none;">Documentos</span>
+	<span class="dijitInline dijitTabCloseButton dijitTabCloseIcon" data-dojo-attach-point="closeNode" role="presentation" title="Fechar" style="display: none;">
+		<span data-dojo-attach-point="closeText" class="dijitTabCloseText">[x]</span></span>
+</div><div role="presentation" data-dojo-attach-point="titleNode,innerDiv,tabContent" class="dijitTabInner dijitTabContent dijitTab" widgetid="tabCadastroAluno_tablist_cpSaude">
+	<span role="presentation" class="dijitInline dijitIcon dijitTabButtonIcon dijitNoIcon" data-dojo-attach-point="iconNode"></span>
+	<span data-dojo-attach-point="containerNode,focusNode" class="tabLabel" role="tab" tabindex="-1" id="tabCadastroAluno_tablist_cpSaude" name="tabCadastroAluno_tablist_cpSaude" aria-disabled="false" title="" style="user-select: none;">Saúde</span>
+	<span class="dijitInline dijitTabCloseButton dijitTabCloseIcon" data-dojo-attach-point="closeNode" role="presentation" title="Fechar" style="display: none;">
+		<span data-dojo-attach-point="closeText" class="dijitTabCloseText">[x]</span></span>
+</div><div role="presentation" data-dojo-attach-point="titleNode,innerDiv,tabContent" class="dijitTabInner dijitTabContent dijitTab" widgetid="tabCadastroAluno_tablist_cpInformacoesGerais">
+	<span role="presentation" class="dijitInline dijitIcon dijitTabButtonIcon dijitNoIcon" data-dojo-attach-point="iconNode"></span>
+	<span data-dojo-attach-point="containerNode,focusNode" class="tabLabel" role="tab" tabindex="-1" id="tabCadastroAluno_tablist_cpInformacoesGerais" name="tabCadastroAluno_tablist_cpInformacoesGerais" aria-disabled="false" title="" style="user-select: none;">Informações gerais</span>
+	<span class="dijitInline dijitTabCloseButton dijitTabCloseIcon" data-dojo-attach-point="closeNode" role="presentation" title="Fechar" style="display: none;">
+		<span data-dojo-attach-point="closeText" class="dijitTabCloseText">[x]</span></span>
+</div></div>
+	</div>
+</div>
+	<div data-dojo-attach-point="tablistSpacer" class="dijitTabSpacer dijitTabContainerTop-spacer"></div>
+	<div class="dijitTabPaneWrapper dijitTabContainerTop-container" data-dojo-attach-point="containerNode">
+				
+				<div role="tabpanel" class="dijitTabContainerTopChildWrapper dijitHidden" aria-labelledby="tabCadastroAluno_tablist_cpAluno"><div data-dojo-type="dijit/layout/ContentPane" id="cpAluno" selected="true" class="dijitContentPane dijitTabPane dijitTabContainerTop-child dijitTabContainerTop-dijitContentPane" widgetid="cpAluno">
+					<table width="100%" border="0" cellpadding="1" cellspacing="0" class="campos">
+					
+            <tbody><tr align="left" valign="middle">
+              <td height="25" class="tittexto">Matrícula:</td>
+              <td height="25" class="texto">1773510</td>
+              <td height="25" class="tittexto">Código INEP:</td>
+              <td height="25" class="texto"> </td>                        
+            </tr>
+            
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Nome social:</td>
+              <td height="25" colspan="3" class="texto"> </td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Nome civil:</td>
+              <td height="25" colspan="3" class="texto">MARIA DJANIRA DA SILVA </td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" width="20%" class="tittexto">Data de nascimento:</td>
+              <td height="25" width="30%" class="texto">28/06/1987</td>
+              <td height="25" width="20%" class="tittexto">Sexo:</td>
+              <td height="25" width="30%" class="texto">Feminino</td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Profissão do aluno:</td>
+              <td height="25" colspan="3" class="texto"> </td>
+            </tr>            
+
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Filiação 1:</td>
+              <td height="25" colspan="3" class="texto">MARIA DE LOURDES DA SILVA </td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">CPF da filiação 1:</td>
+              <td height="25" colspan="3" class="texto"> </td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Profissão da filiação 1:</td>
+              <td height="25" colspan="3" class="texto">AGRICULTORA </td>
+            </tr>            
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Escolaridade da filiação 1:</td>
+              <td height="25" colspan="3" class="texto"> </td>
+            </tr>
+            
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Filiação 2:</td>
+              <td height="25" colspan="3" class="texto"> </td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">CPF da filiação 2:</td>
+              <td height="25" colspan="3" class="texto"> </td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Profissão da filiação 2:</td>
+              <td height="25" colspan="3" class="texto"> </td>
+            </tr>            
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Escolaridade da filiação 2:</td>
+              <td height="25" colspan="3" class="texto"> </td>
+            </tr>
+            
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Renda familiar:</td>
+              <td height="25" class="texto"> </td>
+              <td height="25" class="tittexto">O aluno vive com:</td>
+              <td height="25" class="texto"> </td>
+             </tr>
+             <tr> 
+              <td height="25" class="tittexto">Recebe Bolsa Família:</td>
+              <td height="25" colspan="3" class="texto"></td>
+            </tr>
+             <tr> 
+              <td height="25" class="tittexto">Beneficiário do bolsa família:</td>
+              <td height="25" colspan="3" class="texto"> </td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Endereço eletrônico:</td>
+              <td height="25" colspan="3" class="texto"> </td>
+            </tr>
+            
+	            <tr align="left" valign="middle">
+	              <td height="25" class="tittexto">Conta educacional:</td>
+	              <td height="25" colspan="3" class="texto"></td>
+	            </tr>
+	          
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Raça/cor:</td>
+              <td height="25" class="texto">Parda </td>
+              <td height="25" class="texto" colspan="2">
+              	<span class="tittexto">Remanescente de quilombo: </span>
+              	Não
+              </td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Nacionalidade:</td>
+              <td height="25" class="texto">Brasileira </td>
+              <td height="25" class="texto" colspan="2">
+                <span class="tittexto">Pertencente ao povo cigano: </span>
+                Não
+              </td>
+            </tr>
+            
+            
+            
+              <tr align="left" valign="middle">
+                <td height="25" class="tittexto">UF nascimento:</td>
+                <td height="25" class="texto" colspan="3">PE </td>
+              </tr>
+              <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Município nascimento:</td>
+                <td height="25" class="texto" colspan="3">Capoeiras </td>
+              </tr>
+            
+            
+            
+            
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Foto oficial:</td>
+              <td height="25" class="texto" colspan="3">
+              
+              	Não há foto oficial cadastrada.
+              
+              </td>
+            </tr>
+					</tbody></table>
+				</div></div>
+			
+				<div role="tabpanel" class="dijitTabContainerTopChildWrapper dijitHidden" aria-labelledby="tabCadastroAluno_tablist_cpEndereco"><div data-dojo-type="dijit/layout/ContentPane" id="cpEndereco" class="dijitContentPane dijitTabPane dijitTabContainerTop-child dijitTabContainerTop-dijitContentPane" widgetid="cpEndereco">
+					<table width="100%" border="0" cellpadding="1" cellspacing="0" class="campos">
+                    
+            <tbody><tr align="left" valign="middle">
+                <td height="25" class="tittexto">CEP:</td>
+                <td height="25" colspan="3" class="texto">
+                  55355-000
+                </td>
+            </tr>                    
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Endereço:</td>
+                <td height="25" colspan="3" class="texto">
+                  SITIO PEDRA BRANCA
+                </td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td width="15%" height="25" class="tittexto">Número:</td>
+                <td width="35%" height="25" class="texto">00 </td>
+                <td width="15%" height="25" class="tittexto">Complemento:</td>
+                <td width="35%" height="25" class="texto"> </td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Bairro:</td>
+                <td height="25" colspan="3" class="texto">ZONA RURAL 
+                </td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Município:</td>
+                <td height="25" class="texto">Paranatama / PE</td>
+                <td height="25" class="tittexto">Distrito:</td>
+                <td height="25" class="texto"> </td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Microrregião:</td>
+                <td height="25" class="texto"></td>
+                <td height="25" class="tittexto"></td>
+                <td height="25" class="texto"></td>
+            </tr>
+            <tr align="left" valign="middle" bgcolor="#EDEDED">
+              <td height="25" colspan="4" class="tittexto">Georreferenciamento</td>
+            </tr>
+            <tr height="25">
+              <td class="tittexto"><label for="txtLatitude">Latitude:</label></td>
+              <td class="texto" colspan="3"></td>
+            </tr>
+            <tr height="25">
+              <td class="tittexto"><label for="txtLongitude">Longitude:</label></td>
+              <td class="texto" colspan="3"></td>
+            </tr>
+					</tbody></table>
+				</div></div>
+			
+				<div role="tabpanel" class="dijitTabContainerTopChildWrapper dijitHidden" aria-labelledby="tabCadastroAluno_tablist_cpResponsavel"><div data-dojo-type="dijit/layout/ContentPane" id="cpResponsavel" class="dijitContentPane dijitTabPane dijitTabContainerTop-child dijitTabContainerTop-dijitContentPane" widgetid="cpResponsavel">
+					<table width="100%" border="0" cellpadding="1" cellspacing="0" class="campos">
+
+            <tbody><tr align="left" valign="middle">
+                <td width="20%" height="25" class="tittexto">Responsável:</td>
+                <td width="30%" height="25" class="texto">Próprio aluno</td>
+                <td width="20%" height="25" class="tittexto"></td>
+                <td width="30%" height="25" class="texto"></td>
+            </tr>
+            
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Nome:</td>
+                <td height="25" colspan="3" class="texto">MARIA DJANIRA DA SILVA</td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">CPF:</td>
+                <td height="25" class="texto" colspan="3"></td>
+            </tr>
+						<tr align="left" valign="middle" bgcolor="#EDEDED">
+                <td height="25" colspan="4" class="tittexto"> Dados do responsável </td>
+            </tr>						                        
+           	<tr align="left" valign="middle">
+               <td height="25" class="tittexto">Data de nascimento:</td>
+               <td height="25" class="texto"></td>
+               <td height="25" class="tittexto">Sexo:</td>
+               <td height="25" class="texto"></td>
+            </tr>						
+						<tr align="left" valign="middle">
+	            <td height="25" class="tittexto">NIS:</td>
+	            <td height="25" class="texto" colspan="3">
+            </td></tr>
+						<tr align="left" valign="middle">
+	            <td height="25" class="tittexto">Filiação 1:</td>
+	            <td height="25" class="texto"></td>
+	            <td height="25" class="tittexto" align="left">Filiação 2:</td>
+	            <td height="25" class="texto"></td>
+            </tr>            
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">UF nascimento:</td>
+                <td height="25" class="texto"></td>
+                <td height="25" class="tittexto" align="left">Município nascimento:</td>
+                <td height="25" class="texto"></td>
+            </tr>		
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">RG:</td>
+                <td height="25" class="texto" colspan="3">
+            </td></tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto" align="left">Órgão expedidor:</td>
+                <td height="25" class="texto" colspan="3"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">UF:</td>
+                <td height="25" class="texto"></td>
+                <td height="25" class="tittexto" align="left">Data de emissão:</td>
+                <td height="25" class="texto"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">CNH:</td>
+                <td height="25" class="texto"></td>
+                <td height="25" class="tittexto" align="left">Data de validade da CNH:</td>
+                <td height="25" class="texto"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">CTPS:</td>
+                <td height="25" class="texto"></td>
+                <td height="25" class="tittexto" align="left">Série da CTPS:</td>
+                <td height="25" class="texto"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">UF da CTPS:</td>
+                <td height="25" class="texto"></td>
+                <td height="25" class="tittexto" align="left"></td>
+                <td height="25" class="texto"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Profissão:</td>
+                <td height="25" class="texto" colspan="3"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Escolaridade:</td>
+                <td height="25" class="texto" colspan="3"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Endereço eletrônico:</td>
+                <td height="25" class="texto" colspan="3"></td>
+            </tr>
+								
+						<tr align="left" valign="middle" bgcolor="#EDEDED">
+                <td height="25" colspan="4" class="tittexto"> Endereço do responsável </td>
+            </tr>
+		        <tr align="left" valign="middle">
+               <td height="25" class="texto" colspan="4">
+               	<span class="tittexto">Endereço do responsável é o mesmo do estudante?</span> 
+               	Não
+               </td>
+            </tr>
+						<tr align="left" valign="middle">
+                  <td height="25" class="tittexto">CEP:</td>
+                  <td height="25" class="texto" colspan="3"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Endereço:</td>
+                <td height="25" class="texto" colspan="3"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Número:</td>
+                <td height="25" class="texto"></td>
+                <td height="25" class="tittexto">Complemento:</td>
+                <td height="25" class="texto"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Bairro:</td>
+                <td height="25" class="texto" colspan="3"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">UF:</td>
+                <td height="25" class="texto"></td>
+                <td height="25" class="tittexto">Município:</td>
+                <td height="25" class="texto"></td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">Distrito:</td>
+                <td height="25" class="texto" colspan="3"></td>
+            </tr>						
+           <tr align="left" valign="middle">
+               <td height="25" class="tittexto">Ponto de referência:</td>
+               <td height="25" class="texto" colspan="3"></td>
+           </tr><tr>
+
+					</tr></tbody></table>
+				</div></div>
+
+				<div role="tabpanel" class="dijitTabContainerTopChildWrapper dijitVisible" aria-labelledby="tabCadastroAluno_tablist_cpTelefone"><div data-dojo-type="dijit/layout/ContentPane" id="cpTelefone" class="dijitContentPane dijitTabPane dijitTabContainerTop-child dijitTabContainerTop-dijitContentPane" widgetid="cpTelefone">
+					<table width="100%" border="0" cellpadding="1" cellspacing="0" class="campos">
+
+            
+            
+            	<tbody><tr align="left" valign="middle">
+                <td width="15%" height="25" class="tittexto">Telefone:</td>
+                <td width="35%" height="25" class="texto">
+                    87
+                    &nbsp;
+						 981016661
+						 
+						 
+                </td>
+                <td width="15%" height="25" class="tittexto">Recado para:</td>
+                <td width="35%" height="25" class="texto">
+                    
+                </td>
+            	</tr>
+            
+            	<tr align="left" valign="middle">
+                <td width="15%" height="25" class="tittexto">Telefone:</td>
+                <td width="35%" height="25" class="texto">
+                    
+                    &nbsp;
+						 
+						 
+						 
+                </td>
+                <td width="15%" height="25" class="tittexto">Recado para:</td>
+                <td width="35%" height="25" class="texto">
+                    
+                </td>
+            	</tr>
+            
+            
+					</tbody></table>
+				</div></div>
+
+				<div role="tabpanel" class="dijitTabContainerTopChildWrapper dijitHidden" aria-labelledby="tabCadastroAluno_tablist_cpDocumentos"><div data-dojo-type="dijit/layout/ContentPane" id="cpDocumentos" class="dijitContentPane dijitTabPane dijitTabContainerTop-child dijitTabContainerTop-dijitContentPane" widgetid="cpDocumentos">
+					<table width="100%" border="0" cellpadding="1" cellspacing="0" class="campos">
+                   
+            <tbody><tr align="left" valign="middle">
+              <td height="25" class="tittexto">Justificativa para a <br>falta de documentação do aluno:</td>
+              <td height="25" class="texto" colspan="3"> </td>
+            </tr>                    
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">CPF:</td>
+              <td height="25" class="texto" colspan="3">
+              	075530914
+              	 - 64 
+              </td>
+            </tr>
+            
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">RG:</td>
+              <td height="25" class="texto" colspan="3">
+              	
+              	 
+              </td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Órgão expedidor:</td>
+              <td height="25" class="texto" colspan="3"> </td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td width="20%" height="25" class="tittexto">UF:</td>
+              <td width="30%" height="25" class="texto"> </td>
+              <td width="20%" height="25" class="tittexto">Data de emissão:</td>
+              <td width="30%" height="25" class="texto"> </td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" colspan="4" bgcolor="#EDEDED" class="tittexto">Certidão</td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Tipo de certidão:</td>
+              <td height="25" class="texto" colspan="3">Certidão de nascimento</td>
+            </tr>
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Modelo da certidão:</td>
+              <td height="25" class="texto" colspan="3">
+              	
+              		Antigo
+              	
+              </td>
+            </tr>
+            
+            
+             <tr align="left" valign="middle">
+                 <td height="25" class="tittexto">Número:</td>
+                 <td height="25" class="texto"> </td>
+                 <td height="25" class="tittexto">Folha:</td>
+                 <td height="25" class="texto"> </td>
+             </tr>
+             <tr align="left" valign="middle">
+                 <td height="25" class="tittexto">Livro:</td>
+                 <td height="25" class="texto"> </td>
+                 <td height="25" class="tittexto">Data de emissão:</td>
+                 <td height="25" class="texto"> </td>
+             </tr>
+             <tr align="left" valign="middle">
+                 <td height="25" class="tittexto">UF certidão:</td>
+                 <td height="25" class="texto"> </td>
+                 <td height="25" class="tittexto">Município certidão:</td>
+                 <td height="25" class="texto"> </td>
+             </tr>
+             <tr align="left" valign="middle">
+                 <td height="25" class="tittexto">Cartório:</td>
+                 <td height="25" class="texto" colspan="3"> </td>
+             </tr>
+            
+            <tr align="left" valign="middle">
+                <td height="25" colspan="4" bgcolor="#EDEDED" class="tittexto">Identificação</td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">RA:</td>
+                <td height="25" class="texto"> </td>
+                <td height="25" class="tittexto">NIS:</td>
+                <td height="25" class="texto">16073800240 </td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">RNE:</td>
+                <td height="25" class="texto"> </td>
+                <td height="25" class="tittexto">RM:</td>
+                <td height="25" class="texto"> </td>
+            </tr>
+            <tr align="left" valign="middle">
+                <td height="25" class="tittexto">INEP:</td>
+                <td height="25" class="texto"> </td>
+                <td height="25" class="tittexto">CNS:</td>
+                <td height="25" class="texto"> </td>
+            </tr>
+            
+            
+                    
+		</tbody></table>
+	</div></div>
+
+        <div role="tabpanel" class="dijitTabContainerTopChildWrapper dijitHidden" aria-labelledby="tabCadastroAluno_tablist_cpSaude"><div data-dojo-type="dijit/layout/ContentPane" id="cpSaude" class="dijitContentPane dijitTabPane dijitTabContainerTop-child dijitTabContainerTop-dijitContentPane" widgetid="cpSaude">
+          <table width="100%" border="0" cellpadding="1" cellspacing="0" class="campos">
+            <tbody><tr align="left" valign="middle" height="25">
+              <td width="20%" class="tittexto">Saúde do aluno/ Outros resultados de exames:</td>
+              <td class="texto" colspan="3"><p class="texto"></p></td>
+            </tr>
+            
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Faz uso de medicação controlada ou de uso contínuo:</td>
+              <td height="25" class="texto" colspan="3"></td>
+            </tr>
+                      
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Possui alguma alergia (Medicação, alimentos e/ou outros):</td>
+              <td height="25" class="texto" colspan="3"></td>
+            </tr>
+                  
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Recebe atendimento especializado:</td>
+              <td height="25" class="texto" colspan="3">Não</td>
+            </tr>
+              
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Possui deficiência:</td>
+              <td height="25" class="texto">Não</td>
+              <td width="30%" height="25" class="tittexto">Grupo sanguíneo/ <br>Fator RH:</td>
+              <td height="25" class="texto"></td>
+            </tr>             
+            
+            
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Possui transtorno ou distúrbio:</td>
+              <td height="25" class="texto" colspan="3">Não</td>
+            </tr>
+            
+            
+            
+            <tr align="left" valign="middle">
+              <td height="25" class="tittexto">Necessita de dieta especial:</td>
+              <td height="25" class="texto" colspan="3">Não</td>
+            </tr>
+            
+            
+                   
+                      
+          </tbody></table>
+        </div></div>
+
+				<div role="tabpanel" class="dijitTabContainerTopChildWrapper dijitHidden" aria-labelledby="tabCadastroAluno_tablist_cpInformacoesGerais"><div data-dojo-type="dijit/layout/ContentPane" id="cpInformacoesGerais" class="dijitContentPane dijitTabPane dijitTabContainerTop-child dijitTabContainerTop-dijitContentPane" widgetid="cpInformacoesGerais">
+					<table width="100%" border="0" cellpadding="1" cellspacing="0" class="campos">
+			                    
+          <tbody><tr align="left" valign="middle">
+            <td width="20%" height="25" class="tittexto">Zona de residência:</td>
+            <td width="30%" height="25" class="texto">Rural</td>
+            <td width="20%" height="25" class="tittexto">Recebe escolarização em outro espaço:</td>
+            <td width="30%" height="25" class="texto">Não recebe escolarização fora da escola</td>
+          </tr>
+          <tr align="left" valign="middle">
+            <td height="25" class="tittexto">Localização diferenciada:</td>
+            <td height="25" class="texto" colspan="3">Área onde se localizam povos e comunidades tradicionais</td>
+          </tr>
+          <tr align="left" valign="middle">
+            <td height="25" class="tittexto">Transporte escolar:</td>
+            <td height="25" class="texto">Público</td>
+            <td height="25" class="tittexto">Poder público responsável pelo transporte escolar:</td>
+            <td height="25" class="texto">Municipal</td>
+          </tr>
+					
+						<tr align="left" valign="middle">
+							<td height="25" class="tittexto">Tipo de veículo utilizado no transporte público:</td>
+							<td height="25" colspan="3" class="texto">Rodoviário - Ônibus</td>
+						</tr>	            
+					
+					
+						<tr align="left" valign="middle">
+							<td height="25" class="tittexto">Transporte com bilhetagem eletrônica:</td>
+							<td height="25" colspan="3" class="texto">Não</td>
+						</tr>	            
+					
+          <tr align="left" valign="middle" height="25">
+            <td class="tittexto">Número da conta de energia:</td>
+            <td class="texto" colspan="3"><p class="texto"></p></td>
+          </tr>
+          <tr align="left" valign="middle" height="25">
+            <td class="tittexto">Retorna sozinho para a residência?</td>
+            <td class="texto" colspan="3"><p class="texto">Não</p></td>
+          </tr>
+          <tr align="left" valign="middle" height="25">
+						<td class="tittexto">Observação para o histórico escolar:</td>
+						<td class="texto" colspan="3"><p class="texto"></p></td>
+					</tr>
+          <tr align="left" valign="middle" height="25">
+						<td class="tittexto">Transcrição de histórico estrangeiro:</td>
+						<td class="texto" colspan="3"><p class="texto"></p></td>
+					</tr>
+					<tr align="left" valign="middle">
+						<td height="25" class="tittexto">Pretende cursar o ensino religioso:</td>
+						<td height="25" class="texto" colspan="3">
+						  Não					
+						</td>
+					</tr>
+          <tr align="left" valign="middle" height="25">
+            <td class="tittexto">Religião:</td>
+            <td class="texto" colspan="3"><p class="texto"></p></td>
+          </tr>
+          <tr align="left" valign="middle">
+            <td height="25" class="texto" colspan="4">
+              <span class="tittexto">Participação em seminários de ensino religioso: </span> 
+              Não
+            </td>
+          </tr>
+          <tr align="left" valign="middle">
+            <td class="tittexto">Dispensa da prática de Educação Física:</td>
+            <td height="25" class="texto" colspan="3">Não</td>
+          </tr>
+          
+          
+          
+          <tr align="left" valign="middle" height="25">
+            <td class="tittexto">Autorizados a retirar o aluno na escola:</td>
+            <td class="texto" colspan="3"><p class="texto"></p></td>
+          </tr>
+                    
+		     	
+				   	<tr align="left" valign="middle" bgcolor="#EDEDED">
+				    	<td height="25" colspan="4" class="tittexto"> Material escolar </td>
+				    </tr>
+						<tr align="left" valign="middle">
+							<td height="25" class="tittexto">Ano:</td>
+							<td height="25" colspan="3" class="texto">2025</td>
+						</tr>	            
+						
+							<tr align="left" valign="middle">
+								<td height="25" class="texto" colspan="2">KITCAM - KIT CAMISA</td>
+								<td class="tittexto">Número:</td>
+								<td class="texto">ADU-M</td>
+							</tr>					
+						
+							<tr align="left" valign="middle">
+								<td height="25" class="texto" colspan="2">Vacina - Covid19</td>
+								<td class="tittexto">Número:</td>
+								<td class="texto">3ªDose</td>
+							</tr>					
+						            
+					
+					
+					
+			    
+			         
+					
+					     
+					
+					</tbody></table>
+				</div></div>		
+				
+			</div>
+</div>	                          
+    
+
+		<table width="100%" border="0" cellpadding="1" cellspacing="0" class="faixa_bg">						
+			<tbody><tr height="40">
+      	<td align="right" class="celula_sombra">
+  				<a href="/ws/eol/aluno/matricula/dadoshistoricos/imprimirfichaaluno/4947334/pdf" target="fichaAluno4947334" title="Imprimir trajetória escolar do aluno">
+	  				<img src="/imagens/imprimir.gif" border="0" alt="Imprimir trajetória escolar do aluno">								
+					</a>
+         </td>
+       </tr>
+       <tr height="30" align="center">
+          <td> 
+          	<a name="lnk_voltar" id="lnk_voltar" href="javascript:voltar();" class="bgbnt" tabindex="3" title="Voltar">
+<img src="/imagens/bnt_voltar.gif" border="0" alt="Voltar"></a><script language="javascript">
+function voltar() {
+          			with (document.frmDetalharAluno) {
+           			
+           				actionType.value = "voltar";
+           				submit();		
+           			
+           		}
+          		}
+</script>
+
+          </td>
+       </tr>
+     </tbody></table>
+		</div>
+	</div>
+	<div class="bg3">
+	</div>
+	<div class="bg_rep2">
+	</div>
+	<div class="bg4">
+	</div>
+</div>
