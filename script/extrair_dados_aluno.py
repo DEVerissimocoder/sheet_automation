@@ -15,7 +15,6 @@ def extrair_dados_ficha_aluno(html):
     dados['matricula'] = encontrar_valor_por_label('Matrícula:')
     dados['nome'] = encontrar_valor_por_label('Nome civil:')
     dados['data_nascimento'] = encontrar_valor_por_label('Data de nascimento:')
-    dados['sexo'] = encontrar_valor_por_label('Sexo:')
     dados['raca_cor'] = encontrar_valor_por_label('Raça/cor:')
     dados['filiacao_1'] = encontrar_valor_por_label('Filiação 1:')
     dados['responsavel'] = encontrar_valor_por_label('Responsável:')  # pode ser None
@@ -24,7 +23,7 @@ def extrair_dados_ficha_aluno(html):
     return dados
 
 # Abrir HTML
-with open('extrair_dados_aluno.html', 'r', encoding='utf-8') as f:
+with open('./alunos_html/1_A/adriano.html', 'r', encoding='utf-8') as f:
     html = f.read()
 
 # Extrair dados
