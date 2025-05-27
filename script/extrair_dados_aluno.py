@@ -28,7 +28,7 @@ def extrair_dados_ficha_aluno(html):
     return dados
 
 # Pasta com os arquivos HTML
-pasta_htmls = './alunos_html/1_B'
+pasta_htmls = './alunos_html/1_A_noite'
 arquivos_html = [f for f in os.listdir(pasta_htmls) if f.endswith('.html')]
 
 # Criar planilha
@@ -54,5 +54,5 @@ for linha, nome_arquivo in enumerate(arquivos_html, start=1):
         else:
             sheet.write(linha, col, valor)
 # Salvar arquivo
-workbook.save('1_B.xls')
+workbook.save('1_A_N.xls')
 print("Arquivo 'dados_aluno.xls' salvo com sucesso.")
